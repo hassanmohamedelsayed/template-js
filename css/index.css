@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+background-color: brown;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+}
+.mas{
+width: 600px;
+padding: 20PX 15px;
+border: 1px solid #6f6f6f;
+background-color: #f6f6f6;
+}
+input,button{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+button{
+    padding: 5px;
+    background-color: brown;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    border: 0;
+    transition: 0.5s;
+font-family: sans-serif;
+}
+button:hover{
+    opacity: 1;
+}
+p{
+color: green;
+font-size: 20px;
+margin: 5px 0 0;
+}
